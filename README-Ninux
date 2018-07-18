@@ -1,0 +1,10 @@
+This is a fork of phpipam that runs on our istance, available at https://ipam.ninux.org.
+Modifications are presently made only for convenience.
+
+= CHANGES from upstream =
+
+* Embedded common username/password into the login form
+
+= Ninux Contributors =
+
+* Hispanico
