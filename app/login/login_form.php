@@ -16,13 +16,13 @@
 	<!-- username -->
 	<div class="col-xs-12"><strong><?php print _('Username'); ?></strong></div>
 	<div class="col-xs-12">
-		<input type="text" id="username" name="ipamusername" class="login form-control input-sm" placeholder="<?php print _('Username'); ?>" autofocus="autofocus" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+		<input type="text" id="username" name="ipamusername" class="login form-control input-sm" value="<?php print _('Ninux'); ?>" autofocus="autofocus" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
 	</div>
 
 	<!-- password -->
 	<div class="col-xs-12"><strong><?php print _('Password'); ?></strong></div>
 	<div class="col-xs-12">
-	    <input type="password" id="password" name="ipampassword" class="login form-control input-sm" placeholder="<?php print _('Password'); ?>" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
+		<input type="password" id="password" name="ipampassword" class="login form-control input-sm" value="<?php print _('indirizzi'); ?>" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></input>
 	    <?php
 	    // add requested var for redirect
 	    if(isset($_COOKIE['phpipamredirect'])) {
